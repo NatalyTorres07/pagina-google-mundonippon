@@ -1,0 +1,47 @@
+@charset "utf-8";
+body{
+        background:plum;
+    
+        }
+#menu ul{
+        list-style:none;
+        margin:0;
+        padding:0;
+}
+
+#menu ul li{
+            float:left;
+}
+
+#menu a{
+       color:white;
+       text-decoration:none;
+       display:block;
+       padding:15px 66px;
+}
+
+#menu {
+      background:pink;
+      width:1087px;
+      height:52px;
+}
+
+.barra{
+
+      color:rgba(176,224,230,1);
+      padding:15px 0  0 0;
+    
+}
+
+#menu  a:hover{
+       color:rgba(221,160,221,1);
+       background:rgba(0,0,0,0.2);
+       animation:2s ms 1;
+}
+
+@keyframes ms{
+          0%{
+              opacity:0;
+              transform:scale(1.6);
+}
+}
